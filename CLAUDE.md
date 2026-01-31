@@ -58,6 +58,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
    - "I'll document it later" = "It won't be documented"
    - Documentation is not optional - it's part of the task
 
+4. **Test First, Then Commit**
+   - **REQUIRED:** Always test before making commits
+   - **Workflow:** Implement → Test → Fix Issues → Test Again → Commit
+   - Never commit untested code
+   - If tests fail, fix and retest before committing
+   - Document test results in TESTING.md before commit
+   - **USER PREFERENCE:** "first test, then commit"
+
 ## Project Structure
 
 ```
