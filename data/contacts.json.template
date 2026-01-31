@@ -1,0 +1,14 @@
+{
+  "contacts": [
+    {
+      "name": "Example Person",
+      "phone": "972501234567",
+      "type": "parent"
+    },
+    {
+      "name": "Example Staff",
+      "phone": "972509876543",
+      "type": "staff"
+    }
+  ]
+}

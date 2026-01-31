@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+data/logs/
+
+# Google OAuth credentials (SENSITIVE)
+credentials/credentials.json
+credentials/token.json
+
+# WhatsApp session data (SENSITIVE)
+data/whatsapp-session/
+
+# State and data files (may contain personal info)
+data/state.json
+data/contacts.json
+
+# Environment variables
+.env
+.env.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
